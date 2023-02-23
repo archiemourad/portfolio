@@ -1,0 +1,44 @@
+@import "variables";
+
+body {
+  font-family: $Poppins;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+a {
+  font-family: $Poppins;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.nav-bar {
+  background: black;
+  color: white;
+  font-size: 0.85rem;
+  padding: 10px;
+  a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.nav-footer {
+  color: black;
+  font-weight: 600;
+}
+.nav-footer:hover {
+  border-bottom: 2px solid black;
+}

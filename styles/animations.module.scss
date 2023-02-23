@@ -1,0 +1,66 @@
+@import "variables";
+
+.float {
+  animation: float 0.25s ease-out;
+}
+
+.float_delayed {
+  animation: float_delayed 0.5s ease-out;
+}
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes float_delayed {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0, 0px);
+  }
+}
+
+.bob {
+  animation: bob 2s infinite ease-in-out;
+}
+
+@keyframes bob {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.spin:hover {
+  animation: spin 1s ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.25);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
