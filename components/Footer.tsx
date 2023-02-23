@@ -36,10 +36,10 @@ export default function Footer() {
         <br />
         Source:
         <Link
-          href="https://github.com/archiemourad/archiemourad.github.io"
+          href="https://github.com/archiemourad/portfolio"
           style={{ margin: "5px" }}
         >
-          https://github.com/archiemourad/archiemourad.github.io
+          https://github.com/archiemourad/portfolio
         </Link>
       </div>
     </div>
