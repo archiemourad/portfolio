@@ -5,7 +5,14 @@ export default function Footer() {
     <div className="nav-bar" style={{ padding: "20px" }}>
       <div style={{ display: "inline-block", margin: "20px" }}>
         <p style={{ fontWeight: "600" }}>Contact me:</p>
-        email: mouradarchie@gmail.com
+        email:
+        <Link
+          /* Link opens a new gmail message with mouradarchie@gmail.com entered */
+          href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMFzlHJsHrDspkJcJnbzxVsxfKfGBpfqGJPzJqfTwlVnFsGrMxdCjhhljckJDBjqDsRVKj"
+          style={{ margin: "5px" }}
+        >
+          mouradarchie@gmail.com
+        </Link>
         <br />
         phone: 0466 825 551
       </div>

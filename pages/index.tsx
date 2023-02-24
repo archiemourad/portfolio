@@ -75,13 +75,15 @@ export default function Home() {
         />
       </Head>
       <Navbar />
-      <>
+      {/* <div className="overflow"> prevents content from overflowing on mobile, the body tag ignores the argument on such devices */}
+      <div className="overflow">
         <div
           style={{ padding: "10vw", paddingBottom: "0", marginTop: "100px" }}
         >
           <div style={{ display: "inline-block", verticalAlign: "top" }}>
             <h1 className={animations.float}>Hey,</h1>
             <p className={animations.float_delayed}>
+              {/* Replaced apostrophes with &apos; due to wierd compilation errors during deployment */}
               My name&apos;s Archie, a 15 year-old developer from Australia.
             </p>
           </div>
@@ -93,6 +95,8 @@ export default function Home() {
             height={600}
             style={{
               display: "inline-block",
+              /* verticalAlign: "bottom" removes an unwanted white space from the bottom of the image */
+              verticalAlign: "bottom",
               right: "0",
             }}
           />
@@ -141,7 +145,7 @@ export default function Home() {
             See my projects {">"}
           </Link>
         </div>
-      </>
+      </div>
       <Footer />
     </>
   );

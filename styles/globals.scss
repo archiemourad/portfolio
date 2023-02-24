@@ -2,8 +2,11 @@
 
 body {
   font-family: $Poppins;
-  overflow-x: hidden;
   margin: 0;
+  /* .overflow prevents content from overflowing on mobile, the body tag ignores such an argument */
+  .overflow {
+    overflow-x: hidden;
+  }
 }
 
 a {
@@ -29,6 +32,10 @@ p {
   color: white;
   font-size: 0.85rem;
   padding: 10px;
+  img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   a {
     margin-left: 20px;
     margin-right: 20px;
