@@ -20,7 +20,7 @@ export default function Footer() {
         <p style={{ fontWeight: "600" }}>Socials:</p>
         github:
         <Link href="https://github.com/archiemourad" style={{ margin: "5px" }}>
-          https://github.com/archiemourad
+          archiemourad
         </Link>
       </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
           href="https://github.com/archiemourad/portfolio"
           style={{ margin: "5px" }}
         >
-          https://github.com/archiemourad/portfolio
+          Portfolio on Github
         </Link>
       </div>
     </div>
