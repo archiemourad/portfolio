@@ -10,49 +10,49 @@ const langs = [
     title: "Favourite",
     src: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
     alt: "C++",
-    score: "5",
+    score: "4",
     modifier: "↑",
   },
   {
     title: "Known",
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     alt: "TypeScript",
-    score: "5",
+    score: "4",
     modifier: "↓",
   },
   {
     title: "⠀",
     src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     alt: "JavaScript",
-    score: "6",
+    score: "4",
     modifier: "↓",
   },
   {
     title: "⠀",
     src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     alt: "Python",
-    score: "4",
+    score: "3",
     modifier: "↑",
   },
   {
     title: "⠀",
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
     alt: "C#",
-    score: "4",
+    score: "2",
     modifier: "↓",
   },
   {
     title: "⠀",
     src: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     alt: "HTML5",
-    score: "5",
+    score: "4",
     modifier: "↓",
   },
   {
     title: "⠀",
     src: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
     alt: "CSS3",
-    score: "6",
+    score: "5",
     modifier: "↓",
   },
   {
@@ -62,6 +62,7 @@ const langs = [
     score: "2",
     modifier: "↓",
   },
+  /* Cards with no title have been replaced with an invisible / empty unicode character due to css issues */
 ];
 
 export default function Home() {
@@ -84,7 +85,7 @@ export default function Home() {
             <h1 className={animations.float}>Hey,</h1>
             <p className={animations.float_delayed}>
               {/* Replaced apostrophes with &apos; due to wierd compilation errors during deployment */}
-              My name&apos;s Archie, a 15 year-old developer from Australia.
+              My name&apos;s Archie, a 14 year-old developer from Australia.
             </p>
           </div>
 

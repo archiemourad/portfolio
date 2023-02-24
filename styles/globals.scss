@@ -9,6 +9,21 @@ body {
   }
 }
 
+button {
+  font-family: $Poppins;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: none;
+  border: 2px solid black;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(240, 240, 240);
+}
+
 a {
   font-family: $Poppins;
   color: white;
@@ -40,6 +55,12 @@ p {
     margin-left: 20px;
     margin-right: 20px;
   }
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .nav-footer {

@@ -4,7 +4,7 @@ import favicon from "../public/favicon.ico";
 
 export default function Navbar() {
   return (
-    <div className="nav-bar">
+    <div className="nav-bar sticky">
       <Image
         src={favicon}
         alt=""
