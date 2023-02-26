@@ -52,9 +52,9 @@ export default function Orion() {
           {/* Replaced apostrophes with &apos; due to wierd compilation errors during deployment */}
           <h2 style={{ marginBottom: "5px" }}>What is project Orion?</h2>
           <p>
-            Orion is the website you're on right now. I personally like to name
-            projects around the name of various stars, that&apos;s why they all
-            have such wierd names.
+            Orion is the website you&apos;re on right now. I personally like to
+            name projects around the name of various stars, that&apos;s why they
+            all have such wierd names.
           </p>
 
           <h2 style={{ marginBottom: "5px" }}>About Orion</h2>
@@ -62,9 +62,10 @@ export default function Orion() {
             Orion was made using Next.js 13 and typescript for optimal
             performance. I like to make all my projects compatible with all
             devices, so pages have been thoroughly tested on mobile as well as
-            desktop. It's also in my intrest to keep my projects open source and
-            open to feedback. That&apos;s why my projects are public on GitHub
-            and can be visited with the source link at the bottom of this page.
+            desktop. It&apos;s also in my intrest to keep my projects open
+            source and open to feedback. That&apos;s why my projects are public
+            on GitHub and can be visited with the source link at the bottom of
+            this page.
           </p>
 
           <Image
