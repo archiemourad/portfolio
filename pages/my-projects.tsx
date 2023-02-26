@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Navbar, Footer, Project } from "../components";
 
 const projects = [
@@ -16,6 +17,13 @@ const projects = [
 export default function MyProjects() {
   return (
     <>
+      <Head>
+        <title>Portfolio - My Projects</title>
+        <meta
+          name="Portfolio - My Projects"
+          content="Browse my projects on Archie Mourad's portfolio."
+        />
+      </Head>
       <Navbar />
       <div style={{ padding: "25px", marginTop: "50px" }}>
         <h1>Projects</h1>
