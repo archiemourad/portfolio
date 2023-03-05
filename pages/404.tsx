@@ -13,7 +13,7 @@ export default function PageNotFound() {
         />
       </Head>
       <Navbar />
-      <div style={{ margin: "20vw" }}>
+      <div style={{ margin: "15vw" }}>
         <h1 style={{ fontSize: "7rem" }}>404</h1>
         {/* Replaced apostrophes with &apos; due to wierd compilation errors during deployment */}
         <p>Whoops! The page you were looking for couldn&apos;t be found.</p>

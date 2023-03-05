@@ -25,7 +25,7 @@ export default function MyProjects() {
         />
       </Head>
       <Navbar />
-      <div style={{ padding: "25px", marginTop: "50px" }}>
+      <div style={{ height: "100vh", padding: "5vw" }}>
         <h1>Projects</h1>
 
         {projects.map((project, index) => (
