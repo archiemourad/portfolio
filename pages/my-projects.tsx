@@ -3,6 +3,11 @@ import { Navbar, Footer, Project } from "../components";
 
 const projects = [
   {
+    title: "xp",
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Windows_XP_SP2_Boot_screen.png",
+    link: "/xp",
+  },
+  {
     title: "Orion",
     src: "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Great_Orion_Nebula_in_Narrowband.jpg",
     link: "/orion",
@@ -25,7 +30,7 @@ export default function MyProjects() {
         />
       </Head>
       <Navbar />
-      <div style={{ height: "100vh", padding: "5vw" }}>
+      <div style={{ minHeight: "100vh", padding: "5vw" }}>
         <h1>Projects</h1>
 
         {projects.map((project, index) => (

@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Navbar, Footer } from "../components";
-import vega from "../public/vega-early.png";
+import coast from "../public/coast.png";
 
 const project = {
-  title: "Vega",
-  src: "https://upload.wikimedia.org/wikipedia/commons/4/42/Vega_star_black_background.png",
+  title: "xp",
+  src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Windows_XP_SP2_Boot_screen.png",
 };
 
-export default function Vega() {
+export default function Xp() {
   return (
     <>
       <Head>
@@ -50,26 +50,25 @@ export default function Vega() {
 
         <div style={{ padding: "5vw", paddingTop: "20px" }}>
           {/* Replaced apostrophes with &apos; due to wierd compilation errors during deployment */}
-          <h2 style={{ marginBottom: "5px" }}>What is project Vega?</h2>
+          <h2 style={{ marginBottom: "5px" }}>What is xp?</h2>
           <p>
-            Vega is a simple rendering engine written in C++ using OpenGL. The
-            project isn&apos;t finished yet, so they code isn&apos;t open source
-            and a lack of description may be present.
+            A repository containing numerous miniature projects that are purely
+            a demonstration of knowledge and understanding.
           </p>
 
-          <h2 style={{ marginBottom: "5px" }}>About Vega</h2>
+          <h2 style={{ marginBottom: "5px" }}>About xp</h2>
           <p>
-            Vega was made using OpenGL, I originally wanted to use Vulkan due to
-            it&apos;s performance and explicit syntax however it proved too
-            steep of a learning curve for me, and I decided to learn OpenGL
-            before Vulkan to better understand the render pipeline. I&apos;m
-            currently writing and extending my knowledge of the render pipeline
-            and OpenGL itself.
+            xp mainly contains projects written in C++, as that&apos;s the
+            language I strive to become an expert at. Each of the individual
+            mini-projects contain a snippet of my understanding of particular
+            libraries and concepts. For example in the image below is the COAST
+            project, a stress tester (not really) that utilizes threads and
+            complex math equations.
           </p>
 
           <Image
-            src={vega}
-            alt="Vega's early code"
+            src={coast}
+            alt="COAST: A mini-project inside the xp repository."
             width={1920}
             height={1080}
             style={{
@@ -93,7 +92,9 @@ export default function Vega() {
               marginLeft: "7vw",
             }}
           >
-            <p style={{ fontSize: "0.7rem" }}>Vega&apos;s early code.</p>
+            <p style={{ fontSize: "0.7rem" }}>
+              COAST: A mini-project inside the xp repository.
+            </p>
           </div>
         </div>
       </div>
