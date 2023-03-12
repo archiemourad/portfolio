@@ -7,11 +7,6 @@ const projects = [
     src: "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Great_Orion_Nebula_in_Narrowband.jpg",
     link: "/orion",
   },
-  {
-    title: "Vega",
-    src: "https://upload.wikimedia.org/wikipedia/commons/4/42/Vega_star_black_background.png",
-    link: "/vega",
-  },
 ];
 
 export default function MyProjects() {
